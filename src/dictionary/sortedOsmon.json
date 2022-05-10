@@ -20,6 +20,10 @@
 		"maksimallashtir"
 	],
 	[
+		"getElementById",
+		"idDanElementOl"
+	],
+	[
 		"minimize",
 		"minimallashtir"
 	],
@@ -290,6 +294,10 @@
 	[
 		"Array",
 		"massiv"
+	],
+	[
+		"map",
+		"toplam"
 	],
 	[
 		"then",

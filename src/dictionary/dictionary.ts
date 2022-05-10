@@ -112,6 +112,7 @@ export const dictionary = [
     ['createTextNode', 'nodeTextYarat'],
     ['createElement', 'elementYarat'],
     ['getElementsByClassName', 'klassdanElementOl'],
+    ["getElementById","idDanElementOl"],
     ['importNode', 'importNode'],
     ['clear', 'tozala'],
     ['close', 'yop'],
@@ -193,6 +194,7 @@ export const dictionary = [
     //    Arrays methods
     ['from', 'dan'],
     ['isArray', 'massivTekshir'],
+    ["map","toplam"],
     ['of', 'dan'],
     ['of', 'of'],
     ['values', 'qiymatlar'],
