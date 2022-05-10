@@ -1,19 +1,23 @@
 [
 	[
-		"createDocumentFragment",
-		"dokumentFragmentYarat"
+		"addEventListener",
+		"hodisaKuzatuvchiQosh"
 	],
 	[
 		"createNodeIterator",
-		"nodeIteratorYarat"
+		"tugunIteratorYarat"
 	],
 	[
 		"getElementsByClassName",
 		"klassdanElementOl"
 	],
 	[
-		"execCommand",
-		"komandaBajarish"
+		"createDocumentFragment",
+		"hujjatQismYarat"
+	],
+	[
+		"createTextNode",
+		"tugunTekstYarat"
 	],
 	[
 		"maximize",
@@ -22,6 +26,10 @@
 	[
 		"getElementById",
 		"idDanElementOl"
+	],
+	[
+		"execCommand",
+		"buyruqBajarish"
 	],
 	[
 		"minimize",
@@ -34,18 +42,6 @@
 	[
 		"createAttribute",
 		"attributYarat"
-	],
-	[
-		"createTextNode",
-		"nodeTextYarat"
-	],
-	[
-		"isArray",
-		"massivTekshir"
-	],
-	[
-		"implements",
-		"implementlar"
 	],
 	[
 		"protected",
@@ -68,16 +64,16 @@
 		"etiborQilish"
 	],
 	[
-		"openDialog",
-		"ochishDialog"
-	],
-	[
 		"profileEnd",
 		"profilTugash"
 	],
 	[
-		"module",
-		"qoshimchalar"
+		"createEvent",
+		"hodisaYarat"
+	],
+	[
+		"importNode",
+		"ishlatTugun"
 	],
 	[
 		"groupEnd",
@@ -88,16 +84,8 @@
 		"obyektTuri"
 	],
 	[
-		"createEvent",
-		"hodisYarat"
-	],
-	[
-		"importNode",
-		"importNode"
-	],
-	[
-		"addEventListener",
-		"ishlovQosh"
+		"extends",
+		"uzaytiradi"
 	],
 	[
 		"timeEnd",
@@ -124,16 +112,8 @@
 		"ikkitalik"
 	],
 	[
-		"extends",
-		"qoshimcha"
-	],
-	[
-		"interface",
-		"struktura"
-	],
-	[
-		"writeln",
-		"yozChiziq"
+		"openDialog",
+		"dialogOch"
 	],
 	[
 		"print",
@@ -144,16 +124,16 @@
 		"qiymatlar"
 	],
 	[
+		"module",
+		"qoshimcha"
+	],
+	[
 		"debugger",
 		"debagger"
 	],
 	[
 		"function",
 		"funksiya"
-	],
-	[
-		"switch",
-		"ozgarish"
 	],
 	[
 		"while",
@@ -176,20 +156,12 @@
 		"volatile"
 	],
 	[
-		"document",
-		"dokument"
+		"isArray",
+		"massivMi"
 	],
 	[
-		"constructor",
-		"quruvchi"
-	],
-	[
-		"break",
-		"toxtash"
-	],
-	[
-		"finally",
-		"nihoyat"
+		"implements",
+		"amallar"
 	],
 	[
 		"private",
@@ -200,8 +172,8 @@
 		"ommaviy"
 	],
 	[
-		"throws",
-		"плюнуть"
+		"synchronized",
+		"sinxron"
 	],
 	[
 		"moveTo",
@@ -210,6 +182,10 @@
 	[
 		"error",
 		"xatolik"
+	],
+	[
+		"info",
+		"malumot"
 	],
 	[
 		"assign",
@@ -224,16 +200,20 @@
 		"tashla"
 	],
 	[
+		"in",
+		"ichida"
+	],
+	[
 		"default",
-		"defolt"
+		"odatiy"
 	],
 	[
 		"return",
 		"qaytar"
 	],
 	[
-		"var",
-		"joyVar"
+		"switch",
+		"tanlov"
 	],
 	[
 		"Boolean",
@@ -252,6 +232,10 @@
 		"doimiy"
 	],
 	[
+		"final",
+		"songgi"
+	],
+	[
 		"import",
 		"ishlat"
 	],
@@ -264,8 +248,12 @@
 		"statik"
 	],
 	[
-		"synchronized",
-		"вписон"
+		"throws",
+		"tashla"
+	],
+	[
+		"document",
+		"hujjat"
 	],
 	[
 		"clear",
@@ -273,15 +261,11 @@
 	],
 	[
 		"URL",
-		"ssilka"
+		"havola"
 	],
 	[
 		"value",
 		"qiymat"
-	],
-	[
-		"count",
-		"sanash"
 	],
 	[
 		"profile",
@@ -300,10 +284,6 @@
 		"toplam"
 	],
 	[
-		"then",
-		"shunda"
-	],
-	[
 		"Object",
 		"Obyekt"
 	],
@@ -312,12 +292,12 @@
 		"global"
 	],
 	[
-		"case",
-		"holat"
+		"break",
+		"toxta"
 	],
 	[
-		"catch",
-		"ushla"
+		"case",
+		"holat"
 	],
 	[
 		"delete",
@@ -332,20 +312,8 @@
 		"oxiri"
 	],
 	[
-		"for",
-		"uchun"
-	],
-	[
-		"default",
-		"oddiy"
-	],
-	[
 		"new",
 		"yangi"
-	],
-	[
-		"new",
-		"yengi"
 	],
 	[
 		"throw",
@@ -358,18 +326,6 @@
 	[
 		"class",
 		"klass"
-	],
-	[
-		"final",
-		"final"
-	],
-	[
-		"Float",
-		"Onlik"
-	],
-	[
-		"float",
-		"onlik"
 	],
 	[
 		"Int",
@@ -396,6 +352,10 @@
 		"super"
 	],
 	[
+		"writeln",
+		"yozqt"
+	],
+	[
 		"alert",
 		"yozuv"
 	],
@@ -416,8 +376,8 @@
 		"hamma"
 	],
 	[
-		"else",
-		"unda"
+		"constructor",
+		"yarat"
 	],
 	[
 		"if",
@@ -440,10 +400,6 @@
 		"bosh"
 	],
 	[
-		"with",
-		"with"
-	],
-	[
 		"Byte",
 		"Bayt"
 	],
@@ -458,6 +414,14 @@
 	[
 		"char",
 		"ramz"
+	],
+	[
+		"Float",
+		"Kasr"
+	],
+	[
+		"float",
+		"kasr"
 	],
 	[
 		"Long",
@@ -484,16 +448,28 @@
 		"izla"
 	],
 	[
-		"info",
-		"info"
+		"count",
+		"sana"
 	],
 	[
 		"time",
 		"vaqt"
 	],
 	[
+		"then",
+		"song"
+	],
+	[
 		"catch",
 		"tut"
+	],
+	[
+		"else",
+		"aks"
+	],
+	[
+		"for",
+		"har"
 	],
 	[
 		"yield",
@@ -502,6 +478,10 @@
 	[
 		"this",
 		"shu"
+	],
+	[
+		"var",
+		"ozg"
 	],
 	[
 		"let",
@@ -526,10 +506,6 @@
 	[
 		"null",
 		"nol"
-	],
-	[
-		"NaN",
-		"NaN"
 	],
 	[
 		"false",
@@ -576,8 +552,8 @@
 		"dan"
 	],
 	[
-		"in",
-		"in"
+		"NaN",
+		"RE"
 	],
 	[
 		"true",
