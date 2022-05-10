@@ -1,24 +1,24 @@
 import { compile } from './core';
 
 // export for module
-export { compile as yopta };
+export { compile as osmon };
 
 // find scripts
 if (typeof window !== 'undefined') {
     //get osmon from script
-    document.querySelectorAll('[language="osmonscript"]').forEach(yoptaToJs);
-    document.querySelectorAll('[type="text/x-osmonscript"]').forEach(yoptaToJs);
+    document.querySelectorAll('[language="osmonscript"]').forEach(osmonToJs);
+    document.querySelectorAll('[type="text/x-osmonscript"]').forEach(osmonToJs);
 }
 
-async function yoptaToJs(scriptNode: Element) {
+async function osmonToJs(scriptNode: Element) {
     if (scriptNode.parentNode !== null) {
         //get osm from script
-        const yoptaText: string =
+        const osmonText: string =
             scriptNode.textContent || (await getTxtFromSrc(scriptNode));
         //remove old script
         scriptNode.parentNode.removeChild(scriptNode);
         //create mixed script
-        addScriptNode(compile(yoptaText, 'osm'));
+        addScriptNode(compile(osmonText, 'osm'));
     }
 }
 

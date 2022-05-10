@@ -129,7 +129,7 @@ export const dictionary = [
     //    Global event handlers
 
     //    Window properties
-
+    ['window', 'oyna'],
     //    Window methods
     ['addEventListener', 'ishlovQosh'],
     ['alert', 'yozuv'],

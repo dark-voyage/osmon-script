@@ -11,24 +11,24 @@ function escapeRegExp(str: string) {
     return str;
 }
 
-function yoptReplaceAll(str: string, search: string, replacement: string) {
+function osmonReplaceAll(str: string, search: string, replacement: string) {
     const re = new RegExp(escapeRegExp(search), 'g');
     return str.replace(re, replacement);
 }
 
 /**
  * @param text текст, по которому следует пройтись
- * @param to язык текста ('ys' or 'js')
+ * @param to язык текста ('osm' or 'js')
  */
 function iterateText(text: string, to: 'js' | 'osm' = 'osm') {
     const langCol = to === 'osm' ? 1 : 0;
-    const dick = dictionary;
-    dick.sort((a, b) => {
+    const dicta = dictionary;
+    dicta.sort((a, b) => {
         const al = a[langCol].length;
         const bl = b[langCol].length;
         return bl - al;
     }).forEach(
-        (pair) => (text = yoptReplaceAll(text, pair[langCol], pair[+!langCol]))
+        (pair) => (text = osmonReplaceAll(text, pair[langCol], pair[+!langCol]))
     );
 
     return text;
@@ -45,7 +45,7 @@ export function compile(text: string, lang: 'js' | 'osm' = 'osm'): string {
         [key: string]: string;
     }
     const commentRegExp = /((?:\/\*(?:[^*]|(?:\*+[^*\/]))*\*+\/)|(?:\/\/.*))/g;
-    const tmpToken = 'ys_' + new Date().getTime() + '_';
+    const tmpToken = 'osm_' + new Date().getTime() + '_';
     const rStringLiterals: Literals = {};
     text = text.replace(
         /\"(?:\\.|[^\"\\])*\"|\'(?:\\.|[^\'\\])*\'/g,
@@ -68,4 +68,4 @@ export function compile(text: string, lang: 'js' | 'osm' = 'osm'): string {
 
 // to globals
 const globalThis = polyfill() as any;
-globalThis.yopta = compile;
+globalThis.osmon = compile;

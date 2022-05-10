@@ -1,2 +1,2 @@
 import { compile } from './core';
-export { compile as yopta };
+export { compile as osmon };
