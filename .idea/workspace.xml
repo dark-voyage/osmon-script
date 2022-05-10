@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0da69a2-a0f9-4318-ab14-87cb2733f387" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dictionary/dictionary.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dictionary/prepareArrayBeforeBuild.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/osmonscript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dictionary/dictionary.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dictionary/dictionary.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dictionary/sortedOsmon.json" beforeDir="false" />
-    </list>
+    <list default="true" id="b0da69a2-a0f9-4318-ab14-87cb2733f387" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +42,7 @@
       <updated>1652183825208</updated>
       <workItem from="1652183826670" duration="7339000" />
       <workItem from="1652194203795" duration="4175000" />
-      <workItem from="1652205090581" duration="1372000" />
+      <workItem from="1652205090581" duration="1658000" />
     </task>
     <servers />
   </component>
