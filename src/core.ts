@@ -36,7 +36,7 @@ function iterateText(text: string, to: 'js' | 'osm' = 'osm') {
 
 /**
 converter
- */------------------------------------------------------------------------------------------------------------------------------------------------------
+ */
 export function compile(text: string, lang: 'js' | 'osm' = 'osm'): string {
     /* text - text for replace
      * lang - lang

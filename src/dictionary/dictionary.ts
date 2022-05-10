@@ -84,7 +84,7 @@ export const dictionary = [
     ['true', 'ha'],
     ['false', 'yoq'],
     ['eval', 'qil'],
-    // ['\'use strict\'', '\'далиСтрогача\''], Баг: global.yopta("'use strict'", 'js') возвращает 'use strict'
+    // ['\'use strict\'', '\'далиСтрогача\''], Баг: global.osmon("'use strict'", 'js') возвращает 'use strict'
     //    operators
     ['\\{', '{'],
     ['\\}', '}'],
